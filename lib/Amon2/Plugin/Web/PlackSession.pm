@@ -1,9 +1,11 @@
+package Amon2::Plugin::Web::PlackSession;
 use strict;
 use warnings;
 use utf8;
 
-package Amon2::Plugin::Web::PlackSession;
 use Plack::Session;
+
+our $VERSION = "6.00";
 
 sub init {
     my ($class, $context_class, $conf) = @_;

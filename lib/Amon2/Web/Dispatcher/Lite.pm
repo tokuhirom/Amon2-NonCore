@@ -5,6 +5,8 @@ use parent 'Amon2::Web';
 use Router::Simple 0.14;
 use Router::Simple::Sinatraish;
 
+our $VERSION = "6.00";
+
 sub import {
     my $class = shift;
     my $caller = caller(0);

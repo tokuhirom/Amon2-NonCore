@@ -3,6 +3,8 @@ use strict;
 use warnings;
 use Router::Simple 0.03;
 
+our $VERSION = "6.00";
+
 sub import {
     my $class = shift;
     my %args = @_;

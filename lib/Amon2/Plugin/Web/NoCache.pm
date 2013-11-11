@@ -2,6 +2,8 @@ package Amon2::Plugin::Web::NoCache;
 use strict;
 use warnings;
 
+our $VERSION = "6.00";
+
 sub init {
     my ($class, $c, $conf) = @_;
 
