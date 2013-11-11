@@ -10,7 +10,7 @@ requires 'Router::Simple::Sinatraish';
 
 on 'test' => sub {
     requires 'Test::More', '0.98';
-    requires 'Test::Recommends';
+    requires 'Test::Requires';
     requires 'Test::WWW::Mechanize::PSGI';
     requires 'Amon2::Lite';
     requires 'HTTP::Session::Store::OnMemory';
