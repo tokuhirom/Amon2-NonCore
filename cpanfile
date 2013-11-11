@@ -2,7 +2,7 @@ requires 'perl', '5.008005';
 
 requires 'parent';
 
-requires 'Amon2', '6.00';
+requires 'Amon2', '5.00';
 requires 'Amon2::Web';
 requires 'Plack::Session';
 requires 'Router::Simple', 0.14;
