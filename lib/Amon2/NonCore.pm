@@ -14,15 +14,13 @@ __END__
 
 =head1 NAME
 
-Amon2::NonCore - It's new $module
-
-=head1 SYNOPSIS
-
-    use Amon2::NonCore;
+Amon2::NonCore - This distribution contains non-core Amon2 modules.
 
 =head1 DESCRIPTION
 
-Amon2::NonCore is ...
+This distribution contains non-core Amon2 modules.
+
+Mostly, deprecated plugins.
 
 =head1 LICENSE
 

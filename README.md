@@ -1,14 +1,12 @@
 # NAME
 
-Amon2::NonCore - It's new $module
-
-# SYNOPSIS
-
-    use Amon2::NonCore;
+Amon2::NonCore - This distribution contains non-core Amon2 modules.
 
 # DESCRIPTION
 
-Amon2::NonCore is ...
+This distribution contains non-core Amon2 modules.
+
+Mostly, deprecated plugins.
 
 # LICENSE
 

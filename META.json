@@ -1,10 +1,10 @@
 {
-   "abstract" : "It's new $module",
+   "abstract" : "This distribution contains non-core Amon2 modules.",
    "author" : [
       "tokuhirom <tokuhirom@gmail.com>"
    ],
    "dynamic_config" : 0,
-   "generated_by" : "Minilla/v0.7.5, CPAN::Meta::Converter version 2.132510",
+   "generated_by" : "Minilla/v0.8.3, CPAN::Meta::Converter version 2.132830",
    "license" : [
       "perl_5"
    ],
@@ -43,15 +43,31 @@
       },
       "runtime" : {
          "requires" : {
+            "Amon2" : "5.00",
+            "Router::Simple" : "0.14",
+            "Router::Simple::Sinatraish" : "0",
             "perl" : "5.008005"
          }
       },
       "test" : {
          "requires" : {
-            "Test::More" : "0.98"
+            "Test::More" : "0.98",
+            "Test::Recommends" : "0",
+            "Test::WWW::Mechanize::PSGI" : "0"
          }
       }
    },
    "release_status" : "unstable",
+   "resources" : {
+      "bugtracker" : {
+         "web" : "https://github.com/tokuhirom/Amon2-NonCore/issues"
+      },
+      "homepage" : "https://github.com/tokuhirom/Amon2-NonCore",
+      "repository" : {
+         "type" : "git",
+         "url" : "git://github.com/tokuhirom/Amon2-NonCore.git",
+         "web" : "https://github.com/tokuhirom/Amon2-NonCore"
+      }
+   },
    "version" : "0.01"
 }
